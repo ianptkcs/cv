@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 7mm;
+	background-color: #ffe2ce;
+	font-family: 'Noto Serif', serif;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nome {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	font-size: 12mm;
+	font-weight: 350;
+}
+
+.nome strong {
+	font-weight: 750;
+}
+
+.contatos {
+	display: flex;
+	width: 80%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	margin-top: 1mm;
+
+	font-size: 5mm;
+}
+
+.link {
+	text-decoration: underline;
+	color: #000000;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 7mm;
+}
+
+.education {
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 7mm;
+	font-weight: 350;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.ed {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.ed-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.block-title {
+	font-size: 5.5mm;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+
+.block-subtitle {
+	font-size: 4.5mm;
+	font-weight: 500;
+}
+
+.ed-location {
+	display: flex;
+	flex-direction: row;
+	gap: 1mm;
+}
+
+.ed-city,
+.ed-location p,
+.ed-date {
+	font-size: 5.5mm;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.ex {
+	display: flex;
+	flex-direction: column;
+}
+
+.extra-content {
+	display: flex;
+	flex-direction: column;
+	gap: 3.5mm;
+}
+
+.ex-title,
+.ex-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ex-description {
+	margin: 1.75mm 0 0 21mm;
+	font-size: 4mm;
+	font-weight: 500;
+}
